@@ -1,3 +1,6 @@
+@media screen (max-width: 1680px){
+}
+
 div {
     width: 32.25%;
     height: 250px;
@@ -41,4 +44,14 @@ h2, form {
     position: absolute;
     width: 40vw;
     z-index: 6;
+}
+
+.skull{
+    height:500px;
+    width: 450px;
+    position: absolute;
+}
+
+#roses {
+    position: absolute;
 }
