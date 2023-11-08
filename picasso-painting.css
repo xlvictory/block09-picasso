@@ -1,5 +1,4 @@
 div {
-    border: 3px solid black;
     width: 32.25%;
     height: 250px;
     background-color: #5e0808;
@@ -7,6 +6,7 @@ div {
 }
 
 .mainportion {
+    border: 3px solid black;
     width: 99vw;
     height: 50vh;
     background-color: #5e0808;
@@ -18,10 +18,27 @@ div {
 }
 
 body{
-    background-color: #303030 !important;
+    background-color: #303030!important;
 }
 
 h2, form {
     color: white;
     text-align: center;
+}
+
+.lightning {
+    position: absolute;
+    z-index: 5;
+}
+
+.splatter {
+    height: 390px;
+    position: absolute;
+    z-index: 6;
+}
+
+.clouds {
+    position: absolute;
+    width: 40vw;
+    z-index: 6;
 }
